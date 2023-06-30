@@ -38,7 +38,7 @@ app.post("/", function(req, res){
 
     const options = {
         method: "POST",
-        auth: "Raja1:3e799803b501631254c2a02af8d7c514-us10"
+        auth: "Raja1:72e795a9b222428b2ce6804cae6b354a-us10"
     }
 
     const request = https.request(url, options, function(response) {
@@ -69,19 +69,5 @@ app.listen(process.env.PORT || 3000, function(){
     console.log("Server is started in port 3000.");
 });
 
-// //old
-// //API key
-// //d15f9f3d7ce11c40213b3c957d2956a5-us11
-// //a6d5dedc01e9cde4d3d9cc96eee93706-us11
-//195a09440b3cca7804e8927100cf3ef7-us11
 
-// //list id
-// //b07436f6d1
-
-// //new
-// //API key
-// //3e799803b501631254c2a02af8d7c514-us10
-
-// //listid
-// //b3ef8cadf0
 
